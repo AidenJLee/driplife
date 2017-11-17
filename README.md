@@ -36,5 +36,12 @@ $ carthage update --platform iOS
 
 이후 프로젝트를 열면 실행 가능
 
++ Swift 4.0.0 -> 4.0.2로 변경 됨에 따라서 Carthage에 빌드 된 파일을 인식할 수 없는 오류가 났을경우에는
+
+```bash
+$ carthage update --platform iOS --no-use-binaries
+```
+
+명령어로 재빌드 후 클린 - 실행하면 해결 됨
 
 
