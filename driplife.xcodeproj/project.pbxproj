@@ -8,12 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0F69FA2D1FBEA98D009D5BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA2C1FBEA98D009D5BF6 /* AppDelegate.swift */; };
-		0F69FA2F1FBEA98D009D5BF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA2E1FBEA98D009D5BF6 /* ViewController.swift */; };
 		0F69FA321FBEA98D009D5BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F69FA301FBEA98D009D5BF6 /* Main.storyboard */; };
 		0F69FA341FBEA98D009D5BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F69FA331FBEA98D009D5BF6 /* Assets.xcassets */; };
 		0F69FA371FBEA98D009D5BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F69FA351FBEA98D009D5BF6 /* LaunchScreen.storyboard */; };
 		0F69FA421FBEA98D009D5BF6 /* driplifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA411FBEA98D009D5BF6 /* driplifeTests.swift */; };
 		0F69FA4D1FBEA98D009D5BF6 /* driplifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA4C1FBEA98D009D5BF6 /* driplifeUITests.swift */; };
+		0F69FA5C1FBEB1E0009D5BF6 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA5B1FBEB1E0009D5BF6 /* ServiceFactory.swift */; };
+		0F69FA5E1FBEB1F6009D5BF6 /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA5D1FBEB1F6009D5BF6 /* StoryboardInitializable.swift */; };
+		0F69FA621FBEB543009D5BF6 /* IBAlbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA611FBEB543009D5BF6 /* IBAlbe.swift */; };
+		0F69FA6A1FBEB64F009D5BF6 /* UIColor+PreSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA661FBEB64F009D5BF6 /* UIColor+PreSetup.swift */; };
+		0F69FA6F1FBEB668009D5BF6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA6E1FBEB668009D5BF6 /* GradientView.swift */; };
+		0F69FA741FBEB6D7009D5BF6 /* ProfileMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA731FBEB6D7009D5BF6 /* ProfileMainViewController.swift */; };
+		0F69FA781FBEB741009D5BF6 /* EpilogueMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA771FBEB741009D5BF6 /* EpilogueMainViewController.swift */; };
+		0F69FA7A1FBEB751009D5BF6 /* EpilogueMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA791FBEB751009D5BF6 /* EpilogueMainViewModel.swift */; };
+		0F69FA7C1FBEB769009D5BF6 /* ProfileMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA7B1FBEB769009D5BF6 /* ProfileMainViewModel.swift */; };
+		0F69FA811FBEB78D009D5BF6 /* TravelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA7F1FBEB78D009D5BF6 /* TravelMainViewController.swift */; };
+		0F69FA821FBEB78D009D5BF6 /* TravelMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA801FBEB78D009D5BF6 /* TravelMainViewModel.swift */; };
+		0F69FA881FBEB7AA009D5BF6 /* PrologueMainFlowCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA851FBEB7AA009D5BF6 /* PrologueMainFlowCoodinator.swift */; };
+		0F69FA891FBEB7AA009D5BF6 /* PrologueMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA861FBEB7AA009D5BF6 /* PrologueMainViewController.swift */; };
+		0F69FA8A1FBEB7AA009D5BF6 /* PrologueMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA871FBEB7AA009D5BF6 /* PrologueMainViewModel.swift */; };
+		0F69FA8E1FBEB850009D5BF6 /* MessageMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA8D1FBEB850009D5BF6 /* MessageMainViewController.swift */; };
+		0F69FA911FBEBB4A009D5BF6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA901FBEBB4A009D5BF6 /* BaseNavigationController.swift */; };
+		0F69FAA01FBEC26A009D5BF6 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FA9F1FBEC26A009D5BF6 /* RealmSwift.framework */; };
+		0F69FAA21FBEC277009D5BF6 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA11FBEC277009D5BF6 /* Realm.framework */; };
+		0F69FAA41FBEC27D009D5BF6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA31FBEC27D009D5BF6 /* RxSwift.framework */; };
+		0F69FAA61FBEC281009D5BF6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA51FBEC281009D5BF6 /* RxCocoa.framework */; };
+		0F69FAA81FBEC288009D5BF6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA71FBEC288009D5BF6 /* Alamofire.framework */; };
+		0F69FAAA1FBEC28C009D5BF6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA91FBEC28C009D5BF6 /* AlamofireImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +57,6 @@
 /* Begin PBXFileReference section */
 		0F69FA291FBEA98D009D5BF6 /* driplife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driplife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F69FA2C1FBEA98D009D5BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F69FA2E1FBEA98D009D5BF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F69FA311FBEA98D009D5BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F69FA331FBEA98D009D5BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F69FA361FBEA98D009D5BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,33 @@
 		0F69FA481FBEA98D009D5BF6 /* driplifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = driplifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F69FA4C1FBEA98D009D5BF6 /* driplifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driplifeUITests.swift; sourceTree = "<group>"; };
 		0F69FA4E1FBEA98D009D5BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F69FA5B1FBEB1E0009D5BF6 /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
+		0F69FA5D1FBEB1F6009D5BF6 /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
+		0F69FA611FBEB543009D5BF6 /* IBAlbe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBAlbe.swift; sourceTree = "<group>"; };
+		0F69FA661FBEB64F009D5BF6 /* UIColor+PreSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+PreSetup.swift"; sourceTree = "<group>"; };
+		0F69FA6E1FBEB668009D5BF6 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		0F69FA731FBEB6D7009D5BF6 /* ProfileMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMainViewController.swift; sourceTree = "<group>"; };
+		0F69FA771FBEB741009D5BF6 /* EpilogueMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpilogueMainViewController.swift; sourceTree = "<group>"; };
+		0F69FA791FBEB751009D5BF6 /* EpilogueMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpilogueMainViewModel.swift; sourceTree = "<group>"; };
+		0F69FA7B1FBEB769009D5BF6 /* ProfileMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMainViewModel.swift; sourceTree = "<group>"; };
+		0F69FA7F1FBEB78D009D5BF6 /* TravelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelMainViewController.swift; sourceTree = "<group>"; };
+		0F69FA801FBEB78D009D5BF6 /* TravelMainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelMainViewModel.swift; sourceTree = "<group>"; };
+		0F69FA851FBEB7AA009D5BF6 /* PrologueMainFlowCoodinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrologueMainFlowCoodinator.swift; sourceTree = "<group>"; };
+		0F69FA861FBEB7AA009D5BF6 /* PrologueMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrologueMainViewController.swift; sourceTree = "<group>"; };
+		0F69FA871FBEB7AA009D5BF6 /* PrologueMainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrologueMainViewModel.swift; sourceTree = "<group>"; };
+		0F69FA8D1FBEB850009D5BF6 /* MessageMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageMainViewController.swift; sourceTree = "<group>"; };
+		0F69FA901FBEBB4A009D5BF6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		0F69FA951FBEC261009D5BF6 /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxSwift.framework.dSYM; path = Carthage/Build/iOS/RxSwift.framework.dSYM; sourceTree = "<group>"; };
+		0F69FA961FBEC261009D5BF6 /* Realm.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Realm.framework.dSYM; path = Carthage/Build/iOS/Realm.framework.dSYM; sourceTree = "<group>"; };
+		0F69FA971FBEC261009D5BF6 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		0F69FA981FBEC261009D5BF6 /* RealmSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RealmSwift.framework.dSYM; path = Carthage/Build/iOS/RealmSwift.framework.dSYM; sourceTree = "<group>"; };
+		0F69FA991FBEC261009D5BF6 /* AlamofireImage.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AlamofireImage.framework.dSYM; path = Carthage/Build/iOS/AlamofireImage.framework.dSYM; sourceTree = "<group>"; };
+		0F69FA9F1FBEC26A009D5BF6 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		0F69FAA11FBEC277009D5BF6 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		0F69FAA31FBEC27D009D5BF6 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		0F69FAA51FBEC281009D5BF6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		0F69FAA71FBEC288009D5BF6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		0F69FAA91FBEC28C009D5BF6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +101,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F69FAA81FBEC288009D5BF6 /* Alamofire.framework in Frameworks */,
+				0F69FAAA1FBEC28C009D5BF6 /* AlamofireImage.framework in Frameworks */,
+				0F69FAA21FBEC277009D5BF6 /* Realm.framework in Frameworks */,
+				0F69FAA01FBEC26A009D5BF6 /* RealmSwift.framework in Frameworks */,
+				0F69FAA41FBEC27D009D5BF6 /* RxSwift.framework in Frameworks */,
+				0F69FAA61FBEC281009D5BF6 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +134,7 @@
 				0F69FA401FBEA98D009D5BF6 /* driplifeTests */,
 				0F69FA4B1FBEA98D009D5BF6 /* driplifeUITests */,
 				0F69FA2A1FBEA98D009D5BF6 /* Products */,
+				0F69FA941FBEC261009D5BF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +152,10 @@
 			isa = PBXGroup;
 			children = (
 				0F69FA2C1FBEA98D009D5BF6 /* AppDelegate.swift */,
-				0F69FA2E1FBEA98D009D5BF6 /* ViewController.swift */,
 				0F69FA301FBEA98D009D5BF6 /* Main.storyboard */,
+				0F69FA5A1FBEB1BD009D5BF6 /* Common */,
+				0F69FA701FBEB69F009D5BF6 /* Content */,
+				0F69FA5F1FBEB51A009D5BF6 /* Library */,
 				0F69FA331FBEA98D009D5BF6 /* Assets.xcassets */,
 				0F69FA351FBEA98D009D5BF6 /* LaunchScreen.storyboard */,
 				0F69FA381FBEA98D009D5BF6 /* Info.plist */,
@@ -125,6 +181,165 @@
 			path = driplifeUITests;
 			sourceTree = "<group>";
 		};
+		0F69FA5A1FBEB1BD009D5BF6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA8F1FBEBB3B009D5BF6 /* Base */,
+				0F69FA5B1FBEB1E0009D5BF6 /* ServiceFactory.swift */,
+				0F69FA5D1FBEB1F6009D5BF6 /* StoryboardInitializable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0F69FA5F1FBEB51A009D5BF6 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA601FBEB521009D5BF6 /* IBAble */,
+				0F69FA651FBEB606009D5BF6 /* UIKitExtend */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0F69FA601FBEB521009D5BF6 /* IBAble */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA611FBEB543009D5BF6 /* IBAlbe.swift */,
+			);
+			path = IBAble;
+			sourceTree = "<group>";
+		};
+		0F69FA651FBEB606009D5BF6 /* UIKitExtend */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA6E1FBEB668009D5BF6 /* GradientView.swift */,
+				0F69FA661FBEB64F009D5BF6 /* UIColor+PreSetup.swift */,
+			);
+			path = UIKitExtend;
+			sourceTree = "<group>";
+		};
+		0F69FA701FBEB69F009D5BF6 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA8B1FBEB83D009D5BF6 /* Message */,
+				0F69FA831FBEB794009D5BF6 /* Prologue */,
+				0F69FA7D1FBEB774009D5BF6 /* Travel */,
+				0F69FA751FBEB711009D5BF6 /* Epilogue */,
+				0F69FA711FBEB6AE009D5BF6 /* Profile */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		0F69FA711FBEB6AE009D5BF6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA721FBEB6BC009D5BF6 /* Main */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0F69FA721FBEB6BC009D5BF6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA7B1FBEB769009D5BF6 /* ProfileMainViewModel.swift */,
+				0F69FA731FBEB6D7009D5BF6 /* ProfileMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0F69FA751FBEB711009D5BF6 /* Epilogue */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA761FBEB731009D5BF6 /* Main */,
+			);
+			path = Epilogue;
+			sourceTree = "<group>";
+		};
+		0F69FA761FBEB731009D5BF6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA791FBEB751009D5BF6 /* EpilogueMainViewModel.swift */,
+				0F69FA771FBEB741009D5BF6 /* EpilogueMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0F69FA7D1FBEB774009D5BF6 /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA7E1FBEB77C009D5BF6 /* Main */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		0F69FA7E1FBEB77C009D5BF6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA7F1FBEB78D009D5BF6 /* TravelMainViewController.swift */,
+				0F69FA801FBEB78D009D5BF6 /* TravelMainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0F69FA831FBEB794009D5BF6 /* Prologue */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA841FBEB79F009D5BF6 /* Main */,
+			);
+			path = Prologue;
+			sourceTree = "<group>";
+		};
+		0F69FA841FBEB79F009D5BF6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA851FBEB7AA009D5BF6 /* PrologueMainFlowCoodinator.swift */,
+				0F69FA861FBEB7AA009D5BF6 /* PrologueMainViewController.swift */,
+				0F69FA871FBEB7AA009D5BF6 /* PrologueMainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0F69FA8B1FBEB83D009D5BF6 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA8C1FBEB845009D5BF6 /* Main */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0F69FA8C1FBEB845009D5BF6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA8D1FBEB850009D5BF6 /* MessageMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0F69FA8F1FBEBB3B009D5BF6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FA901FBEBB4A009D5BF6 /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0F69FA941FBEC261009D5BF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FAA91FBEC28C009D5BF6 /* AlamofireImage.framework */,
+				0F69FAA71FBEC288009D5BF6 /* Alamofire.framework */,
+				0F69FAA51FBEC281009D5BF6 /* RxCocoa.framework */,
+				0F69FAA31FBEC27D009D5BF6 /* RxSwift.framework */,
+				0F69FAA11FBEC277009D5BF6 /* Realm.framework */,
+				0F69FA9F1FBEC26A009D5BF6 /* RealmSwift.framework */,
+				0F69FA971FBEC261009D5BF6 /* Alamofire.framework.dSYM */,
+				0F69FA991FBEC261009D5BF6 /* AlamofireImage.framework.dSYM */,
+				0F69FA961FBEC261009D5BF6 /* Realm.framework.dSYM */,
+				0F69FA981FBEC261009D5BF6 /* RealmSwift.framework.dSYM */,
+				0F69FA951FBEC261009D5BF6 /* RxSwift.framework.dSYM */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +350,7 @@
 				0F69FA251FBEA98D009D5BF6 /* Sources */,
 				0F69FA261FBEA98D009D5BF6 /* Frameworks */,
 				0F69FA271FBEA98D009D5BF6 /* Resources */,
+				0F69FA921FBEBF64009D5BF6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,13 +470,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F69FA921FBEBF64009D5BF6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F69FA251FBEA98D009D5BF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F69FA2F1FBEA98D009D5BF6 /* ViewController.swift in Sources */,
+				0F69FA621FBEB543009D5BF6 /* IBAlbe.swift in Sources */,
+				0F69FA6F1FBEB668009D5BF6 /* GradientView.swift in Sources */,
 				0F69FA2D1FBEA98D009D5BF6 /* AppDelegate.swift in Sources */,
+				0F69FA821FBEB78D009D5BF6 /* TravelMainViewModel.swift in Sources */,
+				0F69FA781FBEB741009D5BF6 /* EpilogueMainViewController.swift in Sources */,
+				0F69FA8E1FBEB850009D5BF6 /* MessageMainViewController.swift in Sources */,
+				0F69FA741FBEB6D7009D5BF6 /* ProfileMainViewController.swift in Sources */,
+				0F69FA7C1FBEB769009D5BF6 /* ProfileMainViewModel.swift in Sources */,
+				0F69FA6A1FBEB64F009D5BF6 /* UIColor+PreSetup.swift in Sources */,
+				0F69FA7A1FBEB751009D5BF6 /* EpilogueMainViewModel.swift in Sources */,
+				0F69FA811FBEB78D009D5BF6 /* TravelMainViewController.swift in Sources */,
+				0F69FA891FBEB7AA009D5BF6 /* PrologueMainViewController.swift in Sources */,
+				0F69FA5E1FBEB1F6009D5BF6 /* StoryboardInitializable.swift in Sources */,
+				0F69FA881FBEB7AA009D5BF6 /* PrologueMainFlowCoodinator.swift in Sources */,
+				0F69FA911FBEBB4A009D5BF6 /* BaseNavigationController.swift in Sources */,
+				0F69FA8A1FBEB7AA009D5BF6 /* PrologueMainViewModel.swift in Sources */,
+				0F69FA5C1FBEB1E0009D5BF6 /* ServiceFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +678,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = driplife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.entist.driplife;
@@ -441,6 +696,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = driplife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.entist.driplife;
