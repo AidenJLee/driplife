@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="-1500" y="-1861"/>
         </scene>
-        <!--View Controller-->
+        <!--Message Main View Controller-->
         <scene sceneID="xEV-kI-ywM">
             <objects>
-                <viewController id="5lA-FW-AOY" sceneMemberID="viewController">
+                <viewController id="5lA-FW-AOY" customClass="MessageMainViewController" customModule="driplife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rGO-VQ-4PF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="-1500" y="-1082"/>
         </scene>
-        <!--View Controller-->
+        <!--Prologue Main View Controller-->
         <scene sceneID="gem-Wc-QfS">
             <objects>
-                <viewController id="RXt-a5-gh6" sceneMemberID="viewController">
+                <viewController id="RXt-a5-gh6" customClass="PrologueMainViewController" customModule="driplife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2fI-7C-ec7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,10 +113,10 @@
             </objects>
             <point key="canvasLocation" x="-1500" y="-303"/>
         </scene>
-        <!--View Controller-->
+        <!--Travel Main View Controller-->
         <scene sceneID="w1E-Lg-JRz">
             <objects>
-                <viewController id="LyC-rK-Ioj" sceneMemberID="viewController">
+                <viewController id="LyC-rK-Ioj" customClass="TravelMainViewController" customModule="driplife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fkj-YF-TTu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,10 +146,10 @@
             </objects>
             <point key="canvasLocation" x="-1500" y="460"/>
         </scene>
-        <!--View Controller-->
+        <!--Epilogue Main View Controller-->
         <scene sceneID="aSP-Dz-bZg">
             <objects>
-                <viewController id="U9W-QJ-mro" sceneMemberID="viewController">
+                <viewController id="U9W-QJ-mro" customClass="EpilogueMainViewController" customModule="driplife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dFC-R5-kMV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="-1500" y="1285"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile Main View Controller-->
         <scene sceneID="edz-dI-fZ6">
             <objects>
-                <viewController id="LhM-cC-sjR" sceneMemberID="viewController">
+                <viewController id="LhM-cC-sjR" customClass="ProfileMainViewController" customModule="driplife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iNF-pK-xOp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

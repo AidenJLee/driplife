@@ -1,5 +1,5 @@
 //
-//  ProfileMainViewController.swift
+//  TravelFlowCoordinator.swift
 //  driplife
 //
 //  Created by HoJun Lee on 2017. 11. 17..
@@ -7,9 +7,3 @@
 //
 
 import Foundation
-import UIKit
-import RxSwift
-
-class ProfileMainViewController: UIViewController {
-    
-}

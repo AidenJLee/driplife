@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import UIKit
+import RxSwift
+
+class TravelMainViewController: UIViewController {
+    
+}
+

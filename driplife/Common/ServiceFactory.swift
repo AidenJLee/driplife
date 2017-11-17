@@ -48,3 +48,12 @@ enum HTTPStatusCode: Int {
     case nonAuthoritativeInformation
     
 }
+
+enum StoryBoardNames: String {
+    case Main
+    case Message
+    case Proligue
+    case Travel
+    case Epilogue
+    case Profile
+}

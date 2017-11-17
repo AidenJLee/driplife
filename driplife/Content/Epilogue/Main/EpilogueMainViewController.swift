@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+import RxSwift
+
+class EpilogueMainViewController: UIViewController {
+    
+}

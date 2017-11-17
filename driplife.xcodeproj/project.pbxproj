@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F30A28F1FBEF1F000ABD12E /* TravelFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F30A28E1FBEF1F000ABD12E /* TravelFlowCoordinator.swift */; };
+		0F30A2931FBF05DC00ABD12E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F30A2921FBF05DC00ABD12E /* AppCoordinator.swift */; };
 		0F69FA2D1FBEA98D009D5BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA2C1FBEA98D009D5BF6 /* AppDelegate.swift */; };
 		0F69FA321FBEA98D009D5BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F69FA301FBEA98D009D5BF6 /* Main.storyboard */; };
 		0F69FA341FBEA98D009D5BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F69FA331FBEA98D009D5BF6 /* Assets.xcassets */; };
@@ -29,12 +31,10 @@
 		0F69FA8A1FBEB7AA009D5BF6 /* PrologueMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA871FBEB7AA009D5BF6 /* PrologueMainViewModel.swift */; };
 		0F69FA8E1FBEB850009D5BF6 /* MessageMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA8D1FBEB850009D5BF6 /* MessageMainViewController.swift */; };
 		0F69FA911FBEBB4A009D5BF6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FA901FBEBB4A009D5BF6 /* BaseNavigationController.swift */; };
-		0F69FAA01FBEC26A009D5BF6 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FA9F1FBEC26A009D5BF6 /* RealmSwift.framework */; };
-		0F69FAA21FBEC277009D5BF6 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA11FBEC277009D5BF6 /* Realm.framework */; };
 		0F69FAA41FBEC27D009D5BF6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA31FBEC27D009D5BF6 /* RxSwift.framework */; };
 		0F69FAA61FBEC281009D5BF6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA51FBEC281009D5BF6 /* RxCocoa.framework */; };
 		0F69FAA81FBEC288009D5BF6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA71FBEC288009D5BF6 /* Alamofire.framework */; };
-		0F69FAAA1FBEC28C009D5BF6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F69FAA91FBEC28C009D5BF6 /* AlamofireImage.framework */; };
+		0F69FAAD1FBEC5D6009D5BF6 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69FAAC1FBEC5D6009D5BF6 /* FlowCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F30A28E1FBEF1F000ABD12E /* TravelFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFlowCoordinator.swift; sourceTree = "<group>"; };
+		0F30A2921FBF05DC00ABD12E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		0F69FA291FBEA98D009D5BF6 /* driplife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driplife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F69FA2C1FBEA98D009D5BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F69FA311FBEA98D009D5BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,17 +85,10 @@
 		0F69FA871FBEB7AA009D5BF6 /* PrologueMainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrologueMainViewModel.swift; sourceTree = "<group>"; };
 		0F69FA8D1FBEB850009D5BF6 /* MessageMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageMainViewController.swift; sourceTree = "<group>"; };
 		0F69FA901FBEBB4A009D5BF6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		0F69FA951FBEC261009D5BF6 /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxSwift.framework.dSYM; path = Carthage/Build/iOS/RxSwift.framework.dSYM; sourceTree = "<group>"; };
-		0F69FA961FBEC261009D5BF6 /* Realm.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Realm.framework.dSYM; path = Carthage/Build/iOS/Realm.framework.dSYM; sourceTree = "<group>"; };
-		0F69FA971FBEC261009D5BF6 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
-		0F69FA981FBEC261009D5BF6 /* RealmSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RealmSwift.framework.dSYM; path = Carthage/Build/iOS/RealmSwift.framework.dSYM; sourceTree = "<group>"; };
-		0F69FA991FBEC261009D5BF6 /* AlamofireImage.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AlamofireImage.framework.dSYM; path = Carthage/Build/iOS/AlamofireImage.framework.dSYM; sourceTree = "<group>"; };
-		0F69FA9F1FBEC26A009D5BF6 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		0F69FAA11FBEC277009D5BF6 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		0F69FAA31FBEC27D009D5BF6 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		0F69FAA51FBEC281009D5BF6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		0F69FAA71FBEC288009D5BF6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		0F69FAA91FBEC28C009D5BF6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		0F69FAAC1FBEC5D6009D5BF6 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +97,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F69FAA81FBEC288009D5BF6 /* Alamofire.framework in Frameworks */,
-				0F69FAAA1FBEC28C009D5BF6 /* AlamofireImage.framework in Frameworks */,
-				0F69FAA21FBEC277009D5BF6 /* Realm.framework in Frameworks */,
-				0F69FAA01FBEC26A009D5BF6 /* RealmSwift.framework in Frameworks */,
 				0F69FAA41FBEC27D009D5BF6 /* RxSwift.framework in Frameworks */,
 				0F69FAA61FBEC281009D5BF6 /* RxCocoa.framework in Frameworks */,
 			);
@@ -152,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				0F69FA2C1FBEA98D009D5BF6 /* AppDelegate.swift */,
+				0F30A2921FBF05DC00ABD12E /* AppCoordinator.swift */,
 				0F69FA301FBEA98D009D5BF6 /* Main.storyboard */,
 				0F69FA5A1FBEB1BD009D5BF6 /* Common */,
 				0F69FA701FBEB69F009D5BF6 /* Content */,
@@ -184,6 +177,7 @@
 		0F69FA5A1FBEB1BD009D5BF6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0F69FAAB1FBEC5B0009D5BF6 /* FlowCoordinator */,
 				0F69FA8F1FBEBB3B009D5BF6 /* Base */,
 				0F69FA5B1FBEB1E0009D5BF6 /* ServiceFactory.swift */,
 				0F69FA5D1FBEB1F6009D5BF6 /* StoryboardInitializable.swift */,
@@ -274,8 +268,9 @@
 		0F69FA7E1FBEB77C009D5BF6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				0F69FA7F1FBEB78D009D5BF6 /* TravelMainViewController.swift */,
+				0F30A28E1FBEF1F000ABD12E /* TravelFlowCoordinator.swift */,
 				0F69FA801FBEB78D009D5BF6 /* TravelMainViewModel.swift */,
+				0F69FA7F1FBEB78D009D5BF6 /* TravelMainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -292,8 +287,8 @@
 			isa = PBXGroup;
 			children = (
 				0F69FA851FBEB7AA009D5BF6 /* PrologueMainFlowCoodinator.swift */,
-				0F69FA861FBEB7AA009D5BF6 /* PrologueMainViewController.swift */,
 				0F69FA871FBEB7AA009D5BF6 /* PrologueMainViewModel.swift */,
+				0F69FA861FBEB7AA009D5BF6 /* PrologueMainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -325,19 +320,19 @@
 		0F69FA941FBEC261009D5BF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F69FAA91FBEC28C009D5BF6 /* AlamofireImage.framework */,
 				0F69FAA71FBEC288009D5BF6 /* Alamofire.framework */,
 				0F69FAA51FBEC281009D5BF6 /* RxCocoa.framework */,
 				0F69FAA31FBEC27D009D5BF6 /* RxSwift.framework */,
-				0F69FAA11FBEC277009D5BF6 /* Realm.framework */,
-				0F69FA9F1FBEC26A009D5BF6 /* RealmSwift.framework */,
-				0F69FA971FBEC261009D5BF6 /* Alamofire.framework.dSYM */,
-				0F69FA991FBEC261009D5BF6 /* AlamofireImage.framework.dSYM */,
-				0F69FA961FBEC261009D5BF6 /* Realm.framework.dSYM */,
-				0F69FA981FBEC261009D5BF6 /* RealmSwift.framework.dSYM */,
-				0F69FA951FBEC261009D5BF6 /* RxSwift.framework.dSYM */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F69FAAB1FBEC5B0009D5BF6 /* FlowCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0F69FAAC1FBEC5D6009D5BF6 /* FlowCoordinator.swift */,
+			);
+			path = FlowCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,8 +474,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 			);
 			outputPaths = (
 			);
@@ -496,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F69FA621FBEB543009D5BF6 /* IBAlbe.swift in Sources */,
+				0F30A28F1FBEF1F000ABD12E /* TravelFlowCoordinator.swift in Sources */,
 				0F69FA6F1FBEB668009D5BF6 /* GradientView.swift in Sources */,
 				0F69FA2D1FBEA98D009D5BF6 /* AppDelegate.swift in Sources */,
 				0F69FA821FBEB78D009D5BF6 /* TravelMainViewModel.swift in Sources */,
@@ -503,8 +498,10 @@
 				0F69FA8E1FBEB850009D5BF6 /* MessageMainViewController.swift in Sources */,
 				0F69FA741FBEB6D7009D5BF6 /* ProfileMainViewController.swift in Sources */,
 				0F69FA7C1FBEB769009D5BF6 /* ProfileMainViewModel.swift in Sources */,
+				0F69FAAD1FBEC5D6009D5BF6 /* FlowCoordinator.swift in Sources */,
 				0F69FA6A1FBEB64F009D5BF6 /* UIColor+PreSetup.swift in Sources */,
 				0F69FA7A1FBEB751009D5BF6 /* EpilogueMainViewModel.swift in Sources */,
+				0F30A2931FBF05DC00ABD12E /* AppCoordinator.swift in Sources */,
 				0F69FA811FBEB78D009D5BF6 /* TravelMainViewController.swift in Sources */,
 				0F69FA891FBEB7AA009D5BF6 /* PrologueMainViewController.swift in Sources */,
 				0F69FA5E1FBEB1F6009D5BF6 /* StoryboardInitializable.swift in Sources */,
