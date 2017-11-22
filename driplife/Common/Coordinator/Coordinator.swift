@@ -1,39 +1,38 @@
 //
-//  FlowCoordinator.swift
+//  Coordinator.swift
 //  driplife
 //
-//  Created by HoJun Lee on 2017. 11. 17..
+//  Created by HoJun Lee on 2017. 11. 22..
 //  Copyright © 2017년 HoJun Lee. All rights reserved.
 //
 
-import RxSwift
-import UIKit
 import Foundation
+import RxSwift
 
-protocol FlowCoordinatorProtocol {
-    func coordinate<T>(to coordinator: FlowCoordinator<T>) -> Observable<T>
+protocol CoordinatorProtocol {
+    func coordinate<T>(to coordinator: Coordinator<T>) -> Observable<T>
 }
 
-class FlowCoordinator<ResultType>: FlowCoordinatorProtocol {
+class Coordinator<ResultType>: CoordinatorProtocol {
     
     typealias CoordinationResult = ResultType
     
     let disposeBag = DisposeBag()
     let identifier = UUID()
-    let mainTabbarController: UITabBarController? = nil
-    private var childCoordinators = [UUID: FlowCoordinatorProtocol]()
     
-    private func store<T>(coordinator: FlowCoordinator<T>) {
+    private var childCoordinators = [UUID: CoordinatorProtocol]()
+    
+    private func store<T>(coordinator: Coordinator<T>) {
         childCoordinators[coordinator.identifier] = coordinator
     }
     
-    private func free<T>(coordinator: FlowCoordinator<T>) {
+    private func free<T>(coordinator: Coordinator<T>) {
         childCoordinators[coordinator.identifier] = nil
     }
     
     // ChileCoordinator가 있을경우 start()함수 호출과 함께 ChildCoordinator관련 정보를 다 지움
     // 보통 present로 네비로 띄웠을 경우 이렇게 제거 함
-    func coordinate<T>(to coordinator: FlowCoordinator<T>) -> Observable<T> {
+    func coordinate<T>(to coordinator: Coordinator<T>) -> Observable<T> {
         store(coordinator: coordinator)
         return coordinator.start()
             .do(onNext: { [weak self] _ in self?.free(coordinator: coordinator) })

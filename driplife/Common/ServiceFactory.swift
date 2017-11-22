@@ -16,28 +16,6 @@ enum RequestState  {
     case Error
 }
 
-enum ServiceHost: String {
-    case Development =  "http://api.entist.com:8088/v001/driplife/"
-    case Product =      "http://api.entist.com/v001/driplife"
-    
-    var baseURL: NSURL {
-        guard let url = NSURL(string: self.rawValue) else {
-            fatalError()
-        }
-        return url
-    }
-    
-    func urlString(path: String) -> String {
-        guard let urlString = self.baseURL.absoluteString else {
-            fatalError()
-        }
-        return urlString + "\(path)"
-    }
-}
-
-let currentHost: ServiceHost = ServiceHost.Product
-
-
 enum HTTPStatusCode: Int {
     case continueS = 100    // 100 Informational
     case switchingProtocols // 101
